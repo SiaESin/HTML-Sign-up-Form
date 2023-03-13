@@ -139,8 +139,8 @@
 
             </fieldset>
             <label for="code">Your Secret Code (must be 6 alphanumeric characters)</label><span class="required-field">*</span>
-            <input type="password" title="6 Alphanumeric Character Passcode" pattern=[0-9] required> 
-            <!-- TODO: Submit Button -->
+            <input type="password" title="6 Alphanumeric Character Passcode" pattern=[0-9a-zA-Z]{6} required> 
+            <!-- the pattern for the passcode stumped me a bit. -->
             <input type="submit" value="Enter the Contest">
         </form>
     </main>
